@@ -18,11 +18,13 @@
 - [x] ThemeToggle component
 - [x] Command palette (Ctrl+K)
 
-## ⬜ Phase 3: Feature — Authentication
-- [ ] Halaman Login
-- [ ] JWT storage & auto-inject axios
-- [ ] Auth guard (protected routes)
-- [ ] Logout
+## ✅ Phase 3: Authentication (COMPLETED)
+- [x] Halaman Login (form email/password)
+- [x] AuthGuard (protected routes)
+- [x] JWT storage + auto-inject via axios interceptor
+- [x] Auto-redirect ke /login jika 401
+- [x] Logout
+- [x] Backend: GET /api/auth/me endpoint
 
 ## ⬜ Phase 4: Feature — Workspace
 - [ ] List workspace
