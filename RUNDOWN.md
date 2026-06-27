@@ -26,10 +26,12 @@
 - [x] Logout
 - [x] Backend: GET /api/auth/me endpoint
 
-## ⬜ Phase 4: Feature — Workspace
-- [ ] List workspace
-- [ ] Switch workspace
-- [ ] Create/delete workspace
+## ✅ Phase 4: Feature — Workspace (COMPLETED)
+- [x] List workspace (GET /api/workspaces via Zustand store)
+- [x] Switch workspace (active workspace state + localStorage)
+- [x] Create workspace (POST /api/workspaces via Modal form)
+- [x] Empty state + loading state
+- [x] Active workspace highlight in grid
 
 ## ⬜ Phase 5: Feature — Documents
 - [ ] Upload dokumen (PDF, MD, DOCX)
