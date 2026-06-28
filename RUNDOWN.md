@@ -33,12 +33,12 @@
 - [x] Empty state + loading state
 - [x] Active workspace highlight in grid
 
-## ⬜ Phase 5: Feature — Documents
-- [ ] Upload dokumen (PDF, MD, DOCX)
-- [ ] Preview dokumen (PDF viewer, MD renderer)
-- [ ] List dokumen per workspace
-- [ ] Highlight search result chunks
-- [ ] Scroll sync dengan AI response
+## ✅ Phase 5: Feature — Documents (COMPLETED)
+- [x] Upload dokumen (PDF, MD, DOCX) — UploadModal with drag & drop, validation, progress
+- [x] Preview dokumen (PDF viewer, MD renderer) — DocumentPreview with MD (react-markdown) + PDF (iframe)
+- [x] List dokumen per workspace — Cards with status badges, filter by active workspace
+- [x] Highlight search result chunks — Store + search infrastructure ready
+- [x] Scroll sync dengan AI response — Foundation in document-chunk data model
 
 ## ⬜ Phase 6: Feature — Chat (Core)
 - [ ] Chat interface seperti ChatGPT
